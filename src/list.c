@@ -26,7 +26,7 @@ list_new(void) {
 
 /*
  * Free the list.
- * @self: Pointer to the list 
+ * @self: Pointer to the list
  */
 
 void
@@ -140,7 +140,7 @@ list_lpush(list_t *self, list_node_t *node) {
 /*
  * Return the node associated to val or NULL.
  * @self: Pointer to the list for finding given value
- * @val: Value to find 
+ * @val: Value to find
  */
 
 list_node_t *
@@ -168,7 +168,7 @@ list_find(list_t *self, void *val) {
 
 /*
  * Return the node at the given index or NULL.
- * @self: Pointer to the list for finding given index 
+ * @self: Pointer to the list for finding given index
  * @index: the index of node in the list
  */
 
@@ -194,7 +194,7 @@ list_at(list_t *self, int index) {
 
 /*
  * Remove the given node from the list, freeing it and it's value.
- * @self: Pointer to the list to delete a node 
+ * @self: Pointer to the list to delete a node
  * @node: Pointer the node to be deleted
  */
 
